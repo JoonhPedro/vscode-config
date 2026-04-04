@@ -1,0 +1,108 @@
+{
+  // --- 🎨 Estética e Tema ---
+  "workbench.colorTheme": "Bearded Theme Oceanic Reversed",
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.semanticHighlighting.enabled": false,
+
+  "workbench.colorCustomizations": {
+    "sideBar.border": "#0b0e14",
+    "editorGroupHeader.tabsBackground": "#0b0e14",
+    "tab.activeBackground": "#10141b",
+    "tab.activeForeground": "#00f5d4",
+    "tab.activeBorderTop": "#00f5d4",
+    "tab.inactiveBackground": "#0b0e14",
+    "tab.inactiveForeground": "#546e7a",
+    "tab.hoverBackground": "#161b22",
+    "tab.hoverForeground": "#00f5d4"
+  },
+
+  // --- ✨ Animações de Luxo ---
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.mouseWheelScrollSensitivity": 1.5,
+
+  // --- ⌨️ Tipografia Premium ---
+  "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', monospace",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 2.2,
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 0.5,
+
+  // --- 🛠️ Interface Ultra Clean ---
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "editor.renderLineHighlight": "none",
+  "symbols.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "explorer.decorations.colors": true,
+  "explorer.decorations.badges": true,
+  "workbench.startupEditor": "none",
+  "window.titleBarStyle": "custom",
+
+  // --- 🚀 Produtividade e Formatação ---
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "files.eol": "\n",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.removeUnusedImports": "always"
+  },
+
+  // --- 📂 File Nesting ---
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, pnpm-lock.yaml, yarn.lock, bun.lockb, .eslint*, prettier*, tsconfig*, vite*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env": ".env*, .env.local",
+    "Dockerfile": "docker-compose.*, .dockerignore",
+    "main.go": "go.mod, go.sum"
+  },
+
+  // --- 🧪 Regras de Linguagem ---
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.tabSize": 4
+  },
+  "[lua]": {
+    "editor.defaultFormatter": "sumneko.lua",
+    "editor.tabSize": 2
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  // --- 💻 Terminal ---
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.cursorBlinking": true
+}
