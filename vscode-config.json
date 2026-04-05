@@ -6,25 +6,46 @@
   "editor.semanticHighlighting.enabled": false,
 
   "workbench.colorCustomizations": {
+    // Cores das Tabs e Sidebar
     "sideBar.border": "#0b0e14",
     "editorGroupHeader.tabsBackground": "#0b0e14",
+    "editorGroup.border": "#0b0e14", // Remove a linha divisória entre grupos de editores
     "tab.activeBackground": "#10141b",
     "tab.activeForeground": "#00f5d4",
     "tab.activeBorderTop": "#00f5d4",
     "tab.inactiveBackground": "#0b0e14",
     "tab.inactiveForeground": "#546e7a",
     "tab.hoverBackground": "#161b22",
-    "tab.hoverForeground": "#00f5d4"
+    "tab.hoverForeground": "#00f5d4",
+
+    // Customização da Barra de Título (Ultra Clean)
+    "titleBar.activeBackground": "#0b0e14",
+    "titleBar.activeForeground": "#546e7a",
+    "titleBar.inactiveBackground": "#0b0e14",
+    "titleBar.border": "#0b0e14",
+
+    // Guias de Identação Ativas (Neon)
+    "editorIndentGuide.activeBackground1": "#00f5d423",
+    "editorIndentGuide.background1": "#161b22",
+
+    // Sticky Scroll TOTALMENTE Invisível
+    "editorStickyScroll.background": "#0b0e14",
+    "editorStickyScroll.border": "#0b0e14",
+    "editorStickyScroll.shadow": "#00000000", // Mata a sombra que cria a "linha"
+    "editorStickyScrollHover.background": "#161b22"
   },
 
-  // --- Animações de Luxo ---
+  // --- Animações e Cursor de Luxo ---
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "editor.cursorSurroundingLines": 8,
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
   "editor.mouseWheelScrollSensitivity": 1.5,
 
-  // --- Tipografia Premium ---
+  // ---  Tipografia Premium ---
   "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', monospace",
   "editor.fontSize": 13,
   "editor.lineHeight": 2.2,
@@ -48,6 +69,10 @@
   "workbench.startupEditor": "none",
   "window.titleBarStyle": "custom",
 
+  // Sticky Scroll Ativo (Porém Invisível)
+  "editor.stickyScroll.enabled": true,
+  "editor.stickyScroll.maxLineCount": 3,
+
   // --- Produtividade e Formatação ---
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
@@ -62,7 +87,7 @@
     "source.removeUnusedImports": "always"
   },
 
-  // --- File Nesting ---
+  // --- File Nesting (Organização) ---
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
@@ -96,13 +121,27 @@
       "source.organizeImports": "always"
     }
   },
-  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   // --- Terminal ---
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "JetBrains Mono",
   "terminal.integrated.gpuAcceleration": "on",
-  "terminal.integrated.cursorBlinking": true
+  "terminal.integrated.cursorBlinking": true,
+
+  // --- AI e Associações ---
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.db": "default"
+  },
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1"
 }
