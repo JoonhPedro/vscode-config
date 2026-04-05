@@ -1,5 +1,5 @@
 {
-  // --- 🎨 Estética e Tema ---
+  // --- Estética e Tema ---
   "workbench.colorTheme": "Bearded Theme Oceanic Reversed",
   "workbench.iconTheme": "symbols",
   "workbench.productIconTheme": "fluent-icons",
@@ -17,21 +17,21 @@
     "tab.hoverForeground": "#00f5d4"
   },
 
-  // --- ✨ Animações de Luxo ---
+  // --- Animações de Luxo ---
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
   "editor.mouseWheelScrollSensitivity": 1.5,
 
-  // --- ⌨️ Tipografia Premium ---
+  // --- Tipografia Premium ---
   "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', monospace",
   "editor.fontSize": 13,
   "editor.lineHeight": 2.2,
   "editor.fontLigatures": true,
   "editor.letterSpacing": 0.5,
 
-  // --- 🛠️ Interface Ultra Clean ---
+  // --- Interface Ultra Clean ---
   "workbench.activityBar.location": "top",
   "workbench.sideBar.location": "right",
   "editor.minimap.enabled": false,
@@ -48,7 +48,7 @@
   "workbench.startupEditor": "none",
   "window.titleBarStyle": "custom",
 
-  // --- 🚀 Produtividade e Formatação ---
+  // --- Produtividade e Formatação ---
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
@@ -62,7 +62,7 @@
     "source.removeUnusedImports": "always"
   },
 
-  // --- 📂 File Nesting ---
+  // --- File Nesting ---
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
@@ -73,7 +73,7 @@
     "main.go": "go.mod, go.sum"
   },
 
-  // --- 🧪 Regras de Linguagem ---
+  // --- Regras de Linguagem ---
   "javascript.format.semicolons": "remove",
   "typescript.format.semicolons": "remove",
   "typescript.preferences.importModuleSpecifier": "non-relative",
@@ -100,7 +100,7 @@
   "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
 
-  // --- 💻 Terminal ---
+  // --- Terminal ---
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "JetBrains Mono",
   "terminal.integrated.gpuAcceleration": "on",
