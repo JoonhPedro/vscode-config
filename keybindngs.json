@@ -1,5 +1,5 @@
 [
-  // --- 📂 NAVEGAÇÃO E GIT ---
+  // --- NAVEGAÇÃO E GIT ---
   {
     "key": "alt+1",
     "command": "workbench.action.quickOpenView",
@@ -14,7 +14,7 @@
     "command": "workbench.action.gotoSymbol"
   },
 
-  // --- 🛠️ CODIFICAÇÃO E REATORAÇÃO ---
+  // --- CODIFICAÇÃO E REATORAÇÃO ---
   {
     "key": "alt+r",
     "command": "editor.action.rename",
@@ -30,7 +30,7 @@
     "command": "editor.action.marker.next"
   },
 
-  // --- 💻 TERMINAL E MULTI-TASKING ---
+  // --- TERMINAL E MULTI-TASKING ---
   {
     "key": "alt+t",
     "command": "workbench.action.terminal.switchTerminal"
@@ -66,7 +66,7 @@
     "command": "workbench.action.toggleSidebarVisibility"
   },
 
-  // --- 🚀 NOVOS UTILITÁRIOS "O PULO DO GATO" ---
+  // --- NOVOS UTILITÁRIOS "O PULO DO GATO" ---
 
   // 1. ZEN MODE: Esconde tudo (barra, abas, terminal) para você focar só no código
   {
@@ -111,7 +111,7 @@
     "command": "workbench.files.action.compareFileWith"
   },
 
-  // --- ⚙️ CONFIGS ---
+  // --- CONFIGS ---
   {
     "key": "alt+,",
     "command": "workbench.action.openSettingsJson"
