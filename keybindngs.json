@@ -1,0 +1,123 @@
+[
+  // --- 📂 NAVEGAÇÃO E GIT ---
+  {
+    "key": "alt+1",
+    "command": "workbench.action.quickOpenView",
+    "args": "scm-changes"
+  },
+  {
+    "key": "alt+f",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "alt+s",
+    "command": "workbench.action.gotoSymbol"
+  },
+
+  // --- 🛠️ CODIFICAÇÃO E REATORAÇÃO ---
+  {
+    "key": "alt+r",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+.",
+    "command": "editor.action.quickFix",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+e",
+    "command": "editor.action.marker.next"
+  },
+
+  // --- 💻 TERMINAL E MULTI-TASKING ---
+  {
+    "key": "alt+t",
+    "command": "workbench.action.terminal.switchTerminal"
+  },
+  {
+    "key": "alt+d",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "alt+n",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "alt+m",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+
+  // --- 🧹 ORGANIZAÇÃO E FOCO (ULTRA CLEAN) ---
+  {
+    "key": "alt+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "alt+q",
+    "command": "workbench.action.closeOtherEditors"
+  },
+  {
+    "key": "alt+p",
+    "command": "workbench.action.pinEditor"
+  },
+  {
+    "key": "alt+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+
+  // --- 🚀 NOVOS UTILITÁRIOS "O PULO DO GATO" ---
+
+  // 1. ZEN MODE: Esconde tudo (barra, abas, terminal) para você focar só no código
+  {
+    "key": "alt+z",
+    "command": "workbench.action.toggleZenMode"
+  },
+  // 2. MULTI-CURSOR: Adiciona um cursor na linha de baixo/cima sem usar o mouse
+  {
+    "key": "alt+down",
+    "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+    "when": "editorTextFocus"
+  },
+  // 3. SELECIONAR TUDO QUE É IGUAL: Seleciona todas as ocorrências da palavra atual
+  {
+    "key": "alt+a",
+    "command": "editor.action.selectHighlights",
+    "when": "editorFocus"
+  },
+  // 4. DUPLICAR LINHA: Copia a linha atual para baixo instantaneamente
+  {
+    "key": "alt+c",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // 5. UPPERCASE/LOWERCASE: Transforma o texto selecionado em MAIÚSCULO ou minúsculo
+  {
+    "key": "alt+u",
+    "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "alt+i",
+    "command": "editor.action.transformToLowercase"
+  },
+  // 6. REVEAL IN EXPLORER: Abre a barra lateral focando exatamente onde o arquivo está
+  {
+    "key": "alt+g",
+    "command": "revealInExplorer"
+  },
+  // 7. COMPARAR ARQUIVOS: Se tiver dois arquivos abertos, ele mostra a diferença entre eles
+  {
+    "key": "alt+x",
+    "command": "workbench.files.action.compareFileWith"
+  },
+
+  // --- ⚙️ CONFIGS ---
+  {
+    "key": "alt+,",
+    "command": "workbench.action.openSettingsJson"
+  },
+  {
+    "key": "alt+l",
+    "command": "workbench.action.editor.changeLanguageMode"
+  }
+]
